@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2bfa7232-8bbf-467e-8059-433f5a6a2308">
+  <producedTypes>
+    <refType typeId="c532ab63-39cc-4a1b-bb5e-91ce585eb966" valueTypeId="508f8f52-9443-4cea-815b-3f79219fe480"/>
+    <listType typeId="76933032-0891-4456-accb-7c47fdd6c000" valueTypeId="cf64fad6-9262-4d33-9d85-c6925bd65f81"/>
+    <managerType typeId="21afd08d-ef12-48f9-8773-e70f9dfa6066" valueTypeId="c5bc3f72-e1ee-45ed-9f90-c10095e4dbb8"/>
+  </producedTypes>
+  <name>МС_ВидыОтпусков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды отпусков</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4c56d035-7d89-47cc-a68a-c261e6d0841d">
+    <name>ПлановыйЕжегодныйОтпуск</name>
+    <synonym>
+      <key>ru</key>
+      <value>Плановый ежегодный отпуск</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c42df1f0-70bc-4de9-b058-a201ae52677d">
+    <name>ОтпускЗаСвойСчетНеоплачиваемый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отпуск за свой счет (неоплачиваемый)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4892691e-71ef-445c-ab91-d44ce5ef32cf">
+    <name>ОтгулВСчетОтпуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отгул (в счет отпуска)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33aa195a-53f7-4b82-9db4-aa2ee648b493">
+  <producedTypes>
+    <objectType typeId="6c35f8e1-8edd-4ea0-885b-0f49cb26af5b" valueTypeId="3a98a4db-42b7-4431-9e78-c3a69a1d8c83"/>
+    <managerType typeId="af299cd3-74a1-42e4-87d0-12fe3fee4e92" valueTypeId="0537b6a5-2e61-4607-8e16-6f512e3e53a3"/>
+  </producedTypes>
+  <name>МС_ГрафикОтпусковСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>График отпусков</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.МС_ГрафикОтпусковСотрудников.Form.Форма</defaultForm>
+  <attributes uuid="6c9f3758-7047-4a15-a4f5-1f59e1a8b9c4">
+    <name>ВариантОтображенияДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант отображения данных</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="c1bc1301-b4c1-4397-a2e9-91ab501a8b9e">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="74da000e-57c5-43db-809d-abec9c9de822">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

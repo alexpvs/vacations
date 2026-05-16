@@ -52,6 +52,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
+  <subsystems>Subsystem.Документы_ЗаявкиНаОтпуск</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ГиперссылкаЦвет</styleItems>
   <styleItems>StyleItem.ДействиеВКолонкеСпискаШрифт</styleItems>
@@ -550,19 +551,25 @@
   <commonForms>CommonForm.ФормаПроизвольногоСообщения</commonForms>
   <catalogs>Catalog.ВерсииРасширений</catalogs>
   <catalogs>Catalog.ВнешниеПользователи</catalogs>
-  <catalogs>Catalog.ГруппыВнешнихПользователей</catalogs>
   <catalogs>Catalog.ГруппыПользователей</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовРасширений</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
-  <enums>Enum.ПорядокОбработчиковОбновления</enums>
-  <enums>Enum.РежимыВыполненияОбработчиков</enums>
+  <catalogs>Catalog.ГруппыВнешнихПользователей</catalogs>
+  <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <documents>Document.МС_ЗаявкаНаОтпуск</documents>
   <enums>Enum.РежимыВыполненияОтложенныхОбработчиков</enums>
+  <enums>Enum.РежимыВыполненияОбработчиков</enums>
   <enums>Enum.СпособыРедактированияЭлектронныхПисем</enums>
   <enums>Enum.СтатусыОбработчиковОбновления</enums>
   <enums>Enum.ТипыДанныхКэшаПрограммныхИнтерфейсов</enums>
   <enums>Enum.ФорматыВыгрузкиОбъектов</enums>
   <enums>Enum.ФорматыСохраненияОтчетов</enums>
+  <enums>Enum.ПорядокОбработчиковОбновления</enums>
+  <enums>Enum.МС_СтатусыЗаявкиНаОтпуск</enums>
+  <enums>Enum.МС_ВидыОтпусков</enums>
+  <enums>Enum.ПолФизическогоЛица</enums>
+  <enums>Enum.ВидыДнейПроизводственногоКалендаря</enums>
   <reports>Report.ДлительностьОтложенногоОбновления</reports>
   <reports>Report.МестаИспользованияСсылок</reports>
   <reports>Report.ПользователиПоПодразделениям</reports>
@@ -578,14 +585,15 @@
   <dataProcessors>DataProcessor.РезультатыОбновленияПрограммы</dataProcessors>
   <dataProcessors>DataProcessor.РекомендацияПоПовышениюСкоростиРаботы</dataProcessors>
   <dataProcessors>DataProcessor.УдалениеПомеченныхОбъектов</dataProcessors>
+  <dataProcessors>DataProcessor.МС_ГрафикОтпусковСотрудников</dataProcessors>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанныхОбластейДанных</informationRegisters>
-  <informationRegisters>InformationRegister.ВерсииПодсистем</informationRegisters>
   <informationRegisters>InformationRegister.ДанныеОбработанныеВЦентральномУзлеРИБ</informationRegisters>
   <informationRegisters>InformationRegister.ДлительныеОперации</informationRegisters>
   <informationRegisters>InformationRegister.ИдентификаторыОбъектовВерсийРасширений</informationRegisters>
   <informationRegisters>InformationRegister.ИерархияГруппПользователей</informationRegisters>
   <informationRegisters>InformationRegister.КэшПрограммныхИнтерфейсов</informationRegisters>
+  <informationRegisters>InformationRegister.ВерсииПодсистем</informationRegisters>
   <informationRegisters>InformationRegister.НеудаленныеОбъекты</informationRegisters>
   <informationRegisters>InformationRegister.ОбработчикиОбновления</informationRegisters>
   <informationRegisters>InformationRegister.ОбработчикиОбновленияОбщихДанных</informationRegisters>
@@ -601,4 +609,6 @@
   <informationRegisters>InformationRegister.УдалитьБезопасноеХранилищеДанныхОбластейДанных</informationRegisters>
   <informationRegisters>InformationRegister.УдаляемыеОбъекты</informationRegisters>
   <informationRegisters>InformationRegister.ФиксацияОбработкиДанныхОбработчиками</informationRegisters>
+  <informationRegisters>InformationRegister.МС_ГрафикОтпусков</informationRegisters>
+  <informationRegisters>InformationRegister.ДанныеПроизводственногоКалендаря</informationRegisters>
 </mdclass:Configuration>
