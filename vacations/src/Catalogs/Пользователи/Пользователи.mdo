@@ -121,39 +121,6 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
-  <characteristics>
-    <typesFilterValue xsi:type="core:StringValue">
-      <value>Справочник_Пользователи</value>
-    </typesFilterValue>
-    <dataPathField>-1</dataPathField>
-    <multipleValuesUseField>-1</multipleValuesUseField>
-    <characteristicValues>Catalog.Пользователи.TabularSection.ДополнительныеРеквизиты</characteristicValues>
-    <objectField>Catalog.Пользователи.TabularSection.ДополнительныеРеквизиты.StandardAttribute.Ref</objectField>
-    <typeField>Catalog.Пользователи.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</typeField>
-    <valueField>Catalog.Пользователи.TabularSection.ДополнительныеРеквизиты.Attribute.Значение</valueField>
-    <multipleValuesKeyField>-1</multipleValuesKeyField>
-    <multipleValuesOrderField>-1</multipleValuesOrderField>
-  </characteristics>
-  <characteristics>
-    <typesFilterValue xsi:type="core:StringValue">
-      <value>Справочник_Пользователи</value>
-    </typesFilterValue>
-    <dataPathField>-1</dataPathField>
-    <multipleValuesUseField>-1</multipleValuesUseField>
-    <multipleValuesKeyField>-1</multipleValuesKeyField>
-    <multipleValuesOrderField>-1</multipleValuesOrderField>
-  </characteristics>
-  <characteristics>
-    <typesFilterValue xsi:type="core:ReferenceValue"/>
-    <dataPathField>-1</dataPathField>
-    <multipleValuesUseField>-1</multipleValuesUseField>
-    <characteristicValues>Catalog.Пользователи.TabularSection.КонтактнаяИнформация</characteristicValues>
-    <objectField>Catalog.Пользователи.TabularSection.КонтактнаяИнформация.StandardAttribute.Ref</objectField>
-    <typeField>Catalog.Пользователи.TabularSection.КонтактнаяИнформация.Attribute.ВидДляСписка</typeField>
-    <valueField>Catalog.Пользователи.TabularSection.КонтактнаяИнформация.Attribute.Представление</valueField>
-    <multipleValuesKeyField>-1</multipleValuesKeyField>
-    <multipleValuesOrderField>-1</multipleValuesOrderField>
-  </characteristics>
   <createOnInput>Use</createOnInput>
   <includeHelpInContents>true</includeHelpInContents>
   <help>

@@ -3,10 +3,13 @@
   <name>Документы_ЗаявкиНаОтпуск</name>
   <synonym>
     <key>ru</key>
-    <value>Заявки на отпуск</value>
+    <value>Планы по отпускам</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <useOneCommand>true</useOneCommand>
   <content>Document.МС_ЗаявкаНаОтпуск</content>
+  <content>Role.РасширенныйДоступКЗаявкамНаОтпуск</content>
+  <content>Role.ДоступКЗаявкамНаОтпуск</content>
+  <content>DataProcessor.МС_ГрафикОтпусковСотрудников</content>
+  <subsystems>СлужебныеОбъекты</subsystems>
 </mdclass:Subsystem>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="701db7f2-f5c6-4def-bcc3-897b532e5ec5">
+  <name>ДоступКЗаявкамНаОтпуск</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доступ к заявкам на отпуск</value>
+  </synonym>
+</mdclass:Role>

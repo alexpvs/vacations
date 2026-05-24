@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62ad692d-56d0-4de0-a87d-505393921468">
+  <name>СлужебныеОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Служебные объекты</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>InformationRegister.МС_ГрафикОтпусков</content>
+  <content>Enum.МС_СтатусыЗаявкиНаОтпуск</content>
+  <content>Enum.МС_ВидыОтпусков</content>
+  <parentSubsystem>Subsystem.Документы_ЗаявкиНаОтпуск</parentSubsystem>
+</mdclass:Subsystem>
