@@ -253,72 +253,19 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <tabularSections uuid="03eb1e88-8cf7-4aaa-8acc-d64d81ff53ec">
-    <producedTypes>
-      <objectType typeId="80b85d3c-6235-47c1-8dbf-c8311782c770" valueTypeId="76a6dc17-391a-49e7-899f-8a7d84347448"/>
-      <rowType typeId="c7a251e1-e415-44ad-82f3-184e61945a51" valueTypeId="921a910a-63e0-48e1-bdec-b5f188e2bafe"/>
-    </producedTypes>
-    <name>ДополнительныеРеквизиты</name>
+  <attributes uuid="c59a19eb-5535-4afc-8d5d-493dd36f773e">
+    <name>Подразделение</name>
     <synonym>
       <key>ru</key>
-      <value>Дополнительные реквизиты</value>
+      <value>Подразделение</value>
     </synonym>
-    <standardAttributes>
-      <dataHistory>Use</dataHistory>
-      <name>LineNumber</name>
-      <fillValue xsi:type="core:UndefinedValue"/>
-      <fullTextSearch>Use</fullTextSearch>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-    </standardAttributes>
-    <attributes uuid="948a7d8c-751a-4706-bfca-c71373a9e683">
-      <name>Свойство</name>
-      <synonym>
-        <key>ru</key>
-        <value>Свойство</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>100</length>
-        </stringQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="8cd6920a-33f3-4272-ad91-401848dd641c">
-      <name>Значение</name>
-      <synonym>
-        <key>ru</key>
-        <value>Значение</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers>
-          <length>100</length>
-        </stringQualifiers>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-    <attributes uuid="081f2397-4a93-4eb1-9231-6fef49832b2e">
-      <name>ТекстоваяСтрока</name>
-      <synonym>
-        <key>ru</key>
-        <value>Текстовая строка</value>
-      </synonym>
-      <type>
-        <types>String</types>
-        <stringQualifiers/>
-      </type>
-      <minValue xsi:type="core:UndefinedValue"/>
-      <maxValue xsi:type="core:UndefinedValue"/>
-      <dataHistory>Use</dataHistory>
-      <fullTextSearch>Use</fullTextSearch>
-    </attributes>
-  </tabularSections>
+    <type>
+      <types>CatalogRef.Подразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>

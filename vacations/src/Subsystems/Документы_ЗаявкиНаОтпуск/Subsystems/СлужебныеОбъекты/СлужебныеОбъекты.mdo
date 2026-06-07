@@ -9,5 +9,6 @@
   <content>InformationRegister.МС_ГрафикОтпусков</content>
   <content>Enum.МС_СтатусыЗаявкиНаОтпуск</content>
   <content>Enum.МС_ВидыОтпусков</content>
+  <content>Catalog.Подразделения</content>
   <parentSubsystem>Subsystem.Документы_ЗаявкиНаОтпуск</parentSubsystem>
 </mdclass:Subsystem>

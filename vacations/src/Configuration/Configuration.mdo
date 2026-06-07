@@ -558,6 +558,7 @@
   <catalogs>Catalog.ИдентификаторыОбъектовРасширений</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.ГруппыВнешнихПользователей</catalogs>
+  <catalogs>Catalog.Подразделения</catalogs>
   <catalogs>Catalog.ФизическиеЛица</catalogs>
   <documents>Document.МС_ЗаявкаНаОтпуск</documents>
   <enums>Enum.РежимыВыполненияОтложенныхОбработчиков</enums>
