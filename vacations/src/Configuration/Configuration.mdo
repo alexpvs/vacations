@@ -614,4 +614,7 @@
   <informationRegisters>InformationRegister.ФиксацияОбработкиДанныхОбработчиками</informationRegisters>
   <informationRegisters>InformationRegister.МС_ГрафикОтпусков</informationRegisters>
   <informationRegisters>InformationRegister.ДанныеПроизводственногоКалендаря</informationRegisters>
+  <informationRegisters>InformationRegister.МС_НастройкиПросмотраРаботСотрудников</informationRegisters>
+  <informationRegisters>InformationRegister.МС_ОстаткиОтпусков</informationRegisters>
+  <informationRegisters>InformationRegister.МС_УровеньДоступаКЗаявкамНаОтпуск</informationRegisters>
 </mdclass:Configuration>

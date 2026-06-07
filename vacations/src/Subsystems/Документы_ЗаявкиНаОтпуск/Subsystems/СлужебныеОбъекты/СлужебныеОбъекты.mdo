@@ -10,5 +10,8 @@
   <content>Enum.МС_СтатусыЗаявкиНаОтпуск</content>
   <content>Enum.МС_ВидыОтпусков</content>
   <content>Catalog.Подразделения</content>
+  <content>InformationRegister.МС_НастройкиПросмотраРаботСотрудников</content>
+  <content>InformationRegister.МС_ОстаткиОтпусков</content>
+  <content>InformationRegister.МС_УровеньДоступаКЗаявкамНаОтпуск</content>
   <parentSubsystem>Subsystem.Документы_ЗаявкиНаОтпуск</parentSubsystem>
 </mdclass:Subsystem>

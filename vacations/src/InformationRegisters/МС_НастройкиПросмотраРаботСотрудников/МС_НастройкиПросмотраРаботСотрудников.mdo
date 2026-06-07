@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e28a1269-b89a-4f30-a7bd-6196b8b5b1e5">
+  <producedTypes>
+    <selectionType typeId="85ed451b-fa55-4ba1-a8b2-2f90a8252e90" valueTypeId="a6f7aaec-de83-4bcc-8561-6e1677b1bb24"/>
+    <listType typeId="ca5ddbe3-4b89-45e7-9cce-5ba565c4b5f0" valueTypeId="73a4faf1-c216-4452-9fd3-45e43cd9e39d"/>
+    <managerType typeId="4ac9cb4a-a0b4-497e-80b2-d195923e9dc9" valueTypeId="c6b3f42f-11d0-4b47-93a4-319054359452"/>
+    <recordSetType typeId="1945ffd2-7669-42f2-b884-0bfcf990deb5" valueTypeId="cf3c6f8c-8d45-408e-aaf2-b25a208d2656"/>
+    <recordKeyType typeId="c64d2a38-dc69-458b-9600-8bdb31f5637c" valueTypeId="cc1353fd-848f-4e25-af96-114b97647ab6"/>
+    <recordType typeId="082818bc-eda6-475e-a152-c81d9cf491d4" valueTypeId="3defd390-0978-4051-a675-92cfbf0326fd"/>
+    <recordManagerType typeId="17a7a9cb-b171-4956-9ab2-0d67c468a2a2" valueTypeId="8619e80f-b652-44f6-bbbf-6dcfa8f7c863"/>
+  </producedTypes>
+  <name>МС_НастройкиПросмотраРаботСотрудников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки прав доступа к работам сотрудников</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="47e840fa-0078-4989-a467-a1c6d7fc7284">
+    <name>ПользовательВыполнившийВход</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь выполнивший вход</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="7f68dde1-7e35-4cbe-9abf-a0c46a6cebee">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступный для просмотра сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

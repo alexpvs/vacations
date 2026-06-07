@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="34d20ea7-d484-4087-bcb2-99a0a412482d">
+  <producedTypes>
+    <selectionType typeId="2cbe1c40-cdba-43f7-bbb7-9518553d2040" valueTypeId="bad39366-c12e-43a8-90b6-53c7d08ff59d"/>
+    <listType typeId="90f69ca9-4b6b-418d-a630-ddba4396576a" valueTypeId="35ccc27a-a976-4f6e-8e4e-d669db54c91a"/>
+    <managerType typeId="2569d6f1-d569-492c-9974-e0ddd9343ff3" valueTypeId="e961be7f-0679-46f2-a7e0-94fa4b000250"/>
+    <recordSetType typeId="c7f7f555-221a-46ef-bc1e-2993e789271f" valueTypeId="b3f54f48-5028-474b-bed0-41b67876f8c4"/>
+    <recordKeyType typeId="4d6ebe0e-c6c8-4be6-b1d3-77eae6a7aab4" valueTypeId="61c33b8d-6d2d-4577-a81e-7ba71ba7ae93"/>
+    <recordType typeId="2cd87e41-853a-4b00-ad54-634eb0b5dab7" valueTypeId="fe0d10be-99cb-4129-9585-26a458e347f0"/>
+    <recordManagerType typeId="2b6e00d1-80aa-4961-bd9e-a7137f70d810" valueTypeId="c3ecf322-6a5a-4a9d-b8e5-afd67f3a12f6"/>
+  </producedTypes>
+  <name>МС_ОстаткиОтпусков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Остатки отпусков</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.МС_ОстаткиОтпусков.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Year</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1a7f4ead-b24b-40ee-8d58-b3b410391173">
+    <name>КоличествоДней</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество дней</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="acd6cf6d-e347-4f4b-b6a1-c2e91ebd0eb5">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="0e11d0e6-7d59-4eac-b566-26ce07aea8d3">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>
