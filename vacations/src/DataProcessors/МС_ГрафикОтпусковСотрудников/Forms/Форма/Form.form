@@ -226,7 +226,6 @@
         <openButton>false</openButton>
         <createButton>false</createButton>
         <listChoiceMode>true</listChoiceMode>
-        <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
         <textSize>Normal</textSize>
       </extInfo>
@@ -274,7 +273,6 @@
         <clearButton>true</clearButton>
         <createButton>false</createButton>
         <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
         <textSize>Normal</textSize>
       </extInfo>
@@ -935,8 +933,7 @@
     </title>
     <id>3</id>
     <valueType>
-      <types>String</types>
-      <stringQualifiers/>
+      <types>CatalogRef.ФизическиеЛица</types>
     </valueType>
     <view>
       <common>true</common>
@@ -944,9 +941,6 @@
     <edit>
       <common>true</common>
     </edit>
-    <settingsSavedData xsi:type="form:DataPath">
-      <segments>ОтборПоСотруднику</segments>
-    </settingsSavedData>
   </attributes>
   <attributes>
     <name>ОтборПоПодразделению</name>
@@ -956,8 +950,7 @@
     </title>
     <id>4</id>
     <valueType>
-      <types>String</types>
-      <stringQualifiers/>
+      <types>CatalogRef.Подразделения</types>
     </valueType>
     <view>
       <common>true</common>
@@ -965,9 +958,6 @@
     <edit>
       <common>true</common>
     </edit>
-    <settingsSavedData xsi:type="form:DataPath">
-      <segments>ОтборПоПодразделению</segments>
-    </settingsSavedData>
   </attributes>
   <attributes>
     <name>ДокументРезультат</name>
