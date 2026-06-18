@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:HTTPService xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7a93f524-f113-443b-9c46-b38936267099">
+  <name>api</name>
+  <synonym>
+    <key>ru</key>
+    <value>Api</value>
+  </synonym>
+  <rootURL>vacations_api</rootURL>
+  <reuseSessions>AutoUse</reuseSessions>
+  <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="ac3814d2-5f8d-473f-8ec1-b3e0d1bfd7be">
+    <name>update_doc</name>
+    <synonym>
+      <key>ru</key>
+      <value>Update doc</value>
+    </synonym>
+    <template>/update_doc</template>
+    <methods uuid="6df599cd-c4a1-4cce-85b0-38729a96ca56">
+      <name>POST</name>
+      <synonym>
+        <key>ru</key>
+        <value>POST</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>update_docPOST</handler>
+    </methods>
+  </urlTemplates>
+</mdclass:HTTPService>
