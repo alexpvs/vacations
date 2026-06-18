@@ -13,5 +13,6 @@
   <content>InformationRegister.МС_НастройкиПросмотраРаботСотрудников</content>
   <content>InformationRegister.МС_ОстаткиОтпусков</content>
   <content>InformationRegister.МС_УровеньДоступаКЗаявкамНаОтпуск</content>
+  <content>Catalog.ФизическиеЛица</content>
   <parentSubsystem>Subsystem.Документы_ЗаявкиНаОтпуск</parentSubsystem>
 </mdclass:Subsystem>

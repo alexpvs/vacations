@@ -4,6 +4,13 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
+		<name>InformationRegister.МС_ГрафикОтпусков</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.МС_ЗаявкаНаОтпуск</name>
 		<right>
 			<name>Read</name>
@@ -67,6 +74,42 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.МС_ОстаткиОтпусков</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ДанныеПроизводственногоКалендаря</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.МС_УровеньДоступаКЗаявкамНаОтпуск</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ФизическиеЛица</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.Подразделения</name>
 		<right>
 			<name>Read</name>
@@ -92,6 +135,13 @@
 		<name>Configuration.ЗаявкиНаОтпуска</name>
 		<right>
 			<name>MainWindowModeNormal</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.МС_НастройкиПросмотраРаботСотрудников</name>
+		<right>
+			<name>Read</name>
 			<value>true</value>
 		</right>
 	</object>

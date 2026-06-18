@@ -4,18 +4,34 @@
 	<setForAttributesByDefault>true</setForAttributesByDefault>
 	<independentRightsOfChildObjects>false</independentRightsOfChildObjects>
 	<object>
-		<name>Document.МС_ЗаявкаНаОтпуск</name>
+		<name>InformationRegister.МС_ГрафикОтпусков</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
 		</right>
+	</object>
+	<object>
+		<name>Document.МС_ЗаявкаНаОтпуск</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>#ТолькоПоСпискуСотрудников</condition>
+			</restrictionByCondition>
+		</right>
 		<right>
 			<name>Insert</name>
 			<value>true</value>
+			<restrictionByCondition>
+				<condition>#ТолькоПоСпискуСотрудников</condition>
+			</restrictionByCondition>
 		</right>
 		<right>
 			<name>Update</name>
 			<value>true</value>
+			<restrictionByCondition>
+				<condition>#ТолькоПоСпискуСотрудников</condition>
+			</restrictionByCondition>
 		</right>
 		<right>
 			<name>Posting</name>
@@ -63,6 +79,42 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.МС_ОстаткиОтпусков</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ДанныеПроизводственногоКалендаря</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.МС_УровеньДоступаКЗаявкамНаОтпуск</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ФизическиеЛица</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.Подразделения</name>
 		<right>
 			<name>Read</name>
@@ -91,4 +143,32 @@
 			<value>true</value>
 		</right>
 	</object>
+	<object>
+		<name>InformationRegister.МС_НастройкиПросмотраРаботСотрудников</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<restrictionTemplate>
+		<name>ТолькоПоСотруднику</name>
+		<condition>ТекущаяТаблица ИЗ #ТекущаяТаблица КАК ТекущаяТаблица
+ГДЕ (Сотрудник В (ВЫБРАТЬ ПЕРВЫЕ 1 Ссылка.ФизическоеЛицо ИЗ Справочник.Пользователи ГДЕ Ссылка = &amp;ТекущийПользователь))</condition>
+	</restrictionTemplate>
+	<restrictionTemplate>
+		<name>ТолькоПоСпискуСотрудников</name>
+		<condition>ТекущаяТаблица ИЗ #ТекущаяТаблица КАК ТекущаяТаблица
+ГДЕ (
+Сотрудник В 
+(
+//это он сам
+ВЫБРАТЬ ПЕРВЫЕ 1 Ссылка.ФизическоеЛицо ИЗ Справочник.Пользователи ГДЕ Ссылка = &amp;ТекущийПользователь
+
+ОБЪЕДИНИТЬ ВСЕ
+//это дополнительно из регистра - доступные ему сотрудники для просмотра
+ВЫБРАТЬ РС.Сотрудник ИЗ РегистрСведений.МС_НастройкиПросмотраРаботСотрудников КАК РС ГДЕ РС.ПользовательВыполнившийВход = &amp;ТекущийПользователь
+)
+
+)</condition>
+	</restrictionTemplate>
 </Rights>
