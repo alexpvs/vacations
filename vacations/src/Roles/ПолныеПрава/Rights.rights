@@ -47,6 +47,13 @@
 		</right>
 	</object>
 	<object>
+		<name>ExchangePlan.ОбменСУФФ</name>
+		<right>
+			<name>InteractiveDelete</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.МС_ЗаявкаНаОтпуск</name>
 		<right>
 			<name>InteractiveDelete</name>
