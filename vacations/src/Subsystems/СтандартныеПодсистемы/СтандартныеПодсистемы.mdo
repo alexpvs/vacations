@@ -10,4 +10,5 @@
   <subsystems>ПоискИУдалениеДублей</subsystems>
   <subsystems>Пользователи</subsystems>
   <subsystems>УдалениеПомеченныхОбъектов</subsystems>
+  <subsystems>ВерсионированиеОбъектов</subsystems>
 </mdclass:Subsystem>

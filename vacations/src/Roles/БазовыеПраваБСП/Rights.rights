@@ -474,6 +474,17 @@
 		</right>
 	</object>
 	<object>
+		<name>SessionParameter.ВыполняетсяЗаписьОбъекта</name>
+		<right>
+			<name>Get</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Set</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.ИспользоватьГруппыПользователей</name>
 		<right>
 			<name>Read</name>

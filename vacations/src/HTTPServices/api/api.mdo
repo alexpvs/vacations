@@ -8,21 +8,68 @@
   <rootURL>vacations_api</rootURL>
   <reuseSessions>AutoUse</reuseSessions>
   <sessionMaxAge>20</sessionMaxAge>
-  <urlTemplates uuid="ac3814d2-5f8d-473f-8ec1-b3e0d1bfd7be">
-    <name>update_doc</name>
+  <urlTemplates uuid="1199f33c-e34f-4659-a351-015000013bb3">
+    <name>get_all_docs</name>
     <synonym>
       <key>ru</key>
-      <value>Update doc</value>
+      <value>Get all docs</value>
     </synonym>
-    <template>/update_doc</template>
-    <methods uuid="6df599cd-c4a1-4cce-85b0-38729a96ca56">
-      <name>POST</name>
+    <template>/GetAllDocs</template>
+    <methods uuid="00155fb5-7eb2-424d-bc32-59c79ab7db58">
+      <name>GET</name>
       <synonym>
         <key>ru</key>
-        <value>POST</value>
+        <value>GET</value>
       </synonym>
-      <httpMethod>POST</httpMethod>
-      <handler>update_docPOST</handler>
+      <handler>get_all_docsGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="c89697ac-94ef-49da-9290-8c535baf1c3b">
+    <name>get_changed_docs</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get changed docs</value>
+    </synonym>
+    <template>/GetChangedDocs</template>
+    <methods uuid="efc7e0eb-8bf1-4b12-b990-133aaab5417a">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>get_changed_docsGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="5b0aeaba-4c61-49c3-8d90-8577cc45de68">
+    <name>get_one_doc</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get one doc</value>
+    </synonym>
+    <template>/GetOneDoc</template>
+    <methods uuid="35400d09-c3ff-4481-adc4-78d686362ab9">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>get_one_docGET</handler>
+    </methods>
+  </urlTemplates>
+  <urlTemplates uuid="b4cd385d-97ec-4763-ba4d-ae44ef289c21">
+    <name>get_docs_by_filter</name>
+    <synonym>
+      <key>ru</key>
+      <value>Get docs by filter</value>
+    </synonym>
+    <template>/GetDocsByFilter</template>
+    <methods uuid="1f9a9210-ac41-4ef4-b335-f760122f09fd">
+      <name>GET</name>
+      <synonym>
+        <key>ru</key>
+        <value>GET</value>
+      </synonym>
+      <handler>get_docs_by_filterGET</handler>
     </methods>
   </urlTemplates>
 </mdclass:HTTPService>

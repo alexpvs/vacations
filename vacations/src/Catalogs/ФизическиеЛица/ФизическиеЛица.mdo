@@ -131,6 +131,8 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>BothWays</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ФизическиеЛица.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.ФизическиеЛица.Form.ФормаГруппы</defaultFolderForm>
   <attributes uuid="4c0e7bc5-a47a-4bbb-b8cc-1f2069bd0c24">
     <name>ДатаРождения</name>
     <synonym>
@@ -268,4 +270,22 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="572fefaa-db5f-4c46-8a39-1435de6b0bec">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7e47053d-3eba-43ea-b0d6-47d090e90304">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

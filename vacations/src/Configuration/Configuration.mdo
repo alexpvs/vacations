@@ -33,7 +33,19 @@
     <key>ru</key>
     <value>Заявки на отпуска</value>
   </caption>
+  <shortCaption>
+    <key>ru</key>
+    <value>Заявки на отпуска</value>
+  </shortCaption>
   <defaultLanguage>Language.Русский</defaultLanguage>
+  <briefInformation>
+    <key>ru</key>
+    <value>Заявки на отпуска</value>
+  </briefInformation>
+  <detailedInformation>
+    <key>ru</key>
+    <value>Заявки на отпуска</value>
+  </detailedInformation>
   <copyright>
     <key>ru</key>
     <value>alexpvs</value>
@@ -55,9 +67,9 @@
   <subsystems>Subsystem.Документы_ЗаявкиНаОтпуск</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ГиперссылкаЦвет</styleItems>
-  <styleItems>StyleItem.ДействиеВКолонкеСпискаШрифт</styleItems>
   <styleItems>StyleItem.ДобавленныйРеквизитФон</styleItems>
   <styleItems>StyleItem.ЗаблокированныйРеквизитЦвет</styleItems>
+  <styleItems>StyleItem.ДействиеВКолонкеСпискаШрифт</styleItems>
   <styleItems>StyleItem.ЗаголовокУдаленногоРеквизитаШрифт</styleItems>
   <styleItems>StyleItem.ИзмененноеЗначениеРеквизитаФон</styleItems>
   <styleItems>StyleItem.ИзмененноеЗначениеРеквизитаЦвет</styleItems>
@@ -74,9 +86,9 @@
   <styleItems>StyleItem.ЦветРазделаПанелиФункций</styleItems>
   <styleItems>StyleItem.ЦветФонаПредупреждения</styleItems>
   <styleItems>StyleItem.ШрифтОченьКрупныйШрифтТекста</styleItems>
+  <styleItems>StyleItem.ЗаголовокУдаленногоРеквизитаФон</styleItems>
   <commonPictures>CommonPicture.АнализДанных48</commonPictures>
   <commonPictures>CommonPicture.ВажноеСообщениеЗакрыть</commonPictures>
-  <commonPictures>CommonPicture.ВажноеСообщениеИнформация</commonPictures>
   <commonPictures>CommonPicture.ВажноеСообщениеОшибка</commonPictures>
   <commonPictures>CommonPicture.ВажноеСообщениеПредупреждение</commonPictures>
   <commonPictures>CommonPicture.ВажноеСообщениеУспешно</commonPictures>
@@ -114,6 +126,7 @@
   <commonPictures>CommonPicture.ИзменитьШрифт</commonPictures>
   <commonPictures>CommonPicture.Информация32</commonPictures>
   <commonPictures>CommonPicture.ИнформацияПоНедоступнымПолям</commonPictures>
+  <commonPictures>CommonPicture.ВажноеСообщениеИнформация</commonPictures>
   <commonPictures>CommonPicture.Количество</commonPictures>
   <commonPictures>CommonPicture.КоллекцияВариантыВажности</commonPictures>
   <commonPictures>CommonPicture.КоллекцияВидыАктивныхПользователей</commonPictures>
@@ -316,6 +329,7 @@
   <commonPictures>CommonPicture.ЦветТекста</commonPictures>
   <commonPictures>CommonPicture.ЦветФона</commonPictures>
   <commonPictures>CommonPicture.ШтампЭлектроннойПодписи</commonPictures>
+  <commonPictures>CommonPicture.ИсторияВерсий</commonPictures>
   <sessionParameters>SessionParameter.АвторизованныйПользователь</sessionParameters>
   <sessionParameters>SessionParameter.БуферОбмена</sessionParameters>
   <sessionParameters>SessionParameter.ВерсияРасширений</sessionParameters>
@@ -332,10 +346,9 @@
   <sessionParameters>SessionParameter.ТекущийВнешнийПользователь</sessionParameters>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <sessionParameters>SessionParameter.УстановленныеРасширения</sessionParameters>
+  <sessionParameters>SessionParameter.ВыполняетсяЗаписьОбъекта</sessionParameters>
   <roles>Role.АдминистраторСистемы</roles>
   <roles>Role.Администрирование</roles>
-  <roles>Role.БазовыеПраваБСП</roles>
-  <roles>Role.БазовыеПраваВнешнихПользователейБСП</roles>
   <roles>Role.ВыводНаПринтерФайлБуферОбмена</roles>
   <roles>Role.ДобавлениеИзменениеВнешнихПользователей</roles>
   <roles>Role.ДобавлениеИзменениеПользователей</roles>
@@ -353,17 +366,22 @@
   <roles>Role.РежимТехническогоСпециалиста</roles>
   <roles>Role.СохранениеДанныхПользователя</roles>
   <roles>Role.УдаленныйДоступБазоваяФункциональность</roles>
+  <roles>Role.БазовыеПраваВнешнихПользователейБСП</roles>
   <roles>Role.ЧтениеВнешнихПользователей</roles>
+  <roles>Role.БазовыеПраваБСП</roles>
   <roles>Role.ДоступКЗаявкамНаОтпуск</roles>
   <roles>Role.РасширенныйДоступКЗаявкамНаОтпуск</roles>
+  <roles>Role.ЧтениеВерсийОбъектов</roles>
+  <roles>Role.ЧтениеИнформацииОВерсияхОбъектов</roles>
+  <roles>Role.ДоступКAPI</roles>
   <commonTemplates>CommonTemplate.КомпонентаПоискаСтрок</commonTemplates>
   <commonTemplates>CommonTemplate.ПолучениеДереваОбработчиковОбновления</commonTemplates>
   <commonModules>CommonModule.АдминистрированиеКластера</commonModules>
   <commonModules>CommonModule.АдминистрированиеКластераCOM</commonModules>
   <commonModules>CommonModule.АдминистрированиеКластераRAS</commonModules>
   <commonModules>CommonModule.ВнешниеПользователи</commonModules>
-  <commonModules>CommonModule.ВнешниеПользователиКлиент</commonModules>
   <commonModules>CommonModule.ДлительныеОперации</commonModules>
+  <commonModules>CommonModule.ВнешниеПользователиКлиент</commonModules>
   <commonModules>CommonModule.ДлительныеОперацииВызовСервера</commonModules>
   <commonModules>CommonModule.ДлительныеОперацииКлиент</commonModules>
   <commonModules>CommonModule.ЖурналРегистрации</commonModules>
@@ -441,6 +459,11 @@
   <commonModules>CommonModule.ФайловаяСистемаСлужебныйКлиентСервер</commonModules>
   <commonModules>CommonModule.ФизическиеЛицаКлиентСервер</commonModules>
   <commonModules>CommonModule.ФизическиеЛицаКлиентСерверЛокализация</commonModules>
+  <commonModules>CommonModule.ВерсионированиеОбъектов</commonModules>
+  <commonModules>CommonModule.ВерсионированиеОбъектовКлиент</commonModules>
+  <commonModules>CommonModule.ВерсионированиеОбъектовПереопределяемый</commonModules>
+  <commonModules>CommonModule.ВерсионированиеОбъектовСлужебныйВызовСервера</commonModules>
+  <commonModules>CommonModule.ВерсионированиеОбъектовСобытия</commonModules>
   <commonAttributes>CommonAttribute.ОтредактированныеПредопределенныеРеквизиты</commonAttributes>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <exchangePlans>ExchangePlan.ОбменСУФФ</exchangePlans>
@@ -448,7 +471,6 @@
   <httpServices>HTTPService.api</httpServices>
   <eventSubscriptions>EventSubscription.ВыполнитьДействияПослеПолученияДанныхУзлаВРаспределеннойИнформационнойБазе</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ЗапретитьИспользованиеУдаляемыхОбъектовВДокументах</eventSubscriptions>
-  <eventSubscriptions>EventSubscription.ЗапретитьИспользованиеУдаляемыхОбъектовВКонстантах</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ЗапретитьИспользованиеУдаляемыхОбъектовВНаборахЗаписей</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ЗапретитьИспользованиеУдаляемыхОбъектовВНаборахРегистровРасчета</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ЗапретитьИспользованиеУдаляемыхОбъектовВОбъектах</eventSubscriptions>
@@ -456,23 +478,28 @@
   <eventSubscriptions>EventSubscription.ОбновитьВнешнегоПользователя</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ОбновлениеВерсииИБПередУдалениемСсылочногоОбъекта</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ОбработкаПредопределенныхЭлементовПередЗаписью</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ЗапретитьИспользованиеУдаляемыхОбъектовВКонстантах</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ПриОтправкеДанныхГлавному</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ПриОтправкеДанныхПодчиненному</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ПриПолученииДанныхОтГлавного</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ПриПолученииДанныхОтПодчиненного</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ПроверитьБезопасныйРежимПередЗаписью</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ПроверитьБезопасныйРежимПередЗаписьюНабораЗаписи</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ЗаписатьВерсиюОбъекта</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ОчиститьИнформациюОбАвтореВерсии</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ЗаписатьВерсиюДокумента</eventSubscriptions>
   <scheduledJobs>ScheduledJob.ЗаполнениеПараметровРаботыРасширений</scheduledJobs>
   <scheduledJobs>ScheduledJob.КонтрольУдаленияПомеченныхОбъектов</scheduledJobs>
-  <scheduledJobs>ScheduledJob.ОбработкаСервисовИнтеграции</scheduledJobs>
   <scheduledJobs>ScheduledJob.ОтложенноеОбновлениеИБ</scheduledJobs>
   <scheduledJobs>ScheduledJob.ОтправкаСерверныхОповещенийКлиентам</scheduledJobs>
+  <scheduledJobs>ScheduledJob.ОбработкаСервисовИнтеграции</scheduledJobs>
   <scheduledJobs>ScheduledJob.УдалениеПомеченныхОбъектов</scheduledJobs>
   <scheduledJobs>ScheduledJob.УдалениеУстаревшихПараметровРаботыВерсийРасширений</scheduledJobs>
   <scheduledJobs>ScheduledJob.УстановкаПорядкаОтложенногоОбновленияВМоделиСервиса</scheduledJobs>
+  <scheduledJobs>ScheduledJob.ОчисткаУстаревшихВерсийОбъектов</scheduledJobs>
   <functionalOptions>FunctionalOption.ИспользоватьВнешнихПользователей</functionalOptions>
-  <functionalOptions>FunctionalOption.ИспользоватьГруппыВнешнихПользователей</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьГруппыПользователей</functionalOptions>
+  <functionalOptions>FunctionalOption.ИспользоватьГруппыВнешнихПользователей</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьУдалениеПомеченныхОбъектов</functionalOptions>
   <functionalOptions>FunctionalOption.ОтложенноеОбновлениеВГлавномУзлеЗавершеноУспешно</functionalOptions>
   <functionalOptions>FunctionalOption.ОтложенноеОбновлениеЗавершеноУспешно</functionalOptions>
@@ -482,27 +509,34 @@
   <functionalOptions>FunctionalOption.СтандартныеПодсистемыВАвтономномРежиме</functionalOptions>
   <functionalOptions>FunctionalOption.СтандартныеПодсистемыВЛокальномРежиме</functionalOptions>
   <functionalOptions>FunctionalOption.СтандартныеПодсистемыВМоделиСервиса</functionalOptions>
+  <functionalOptions>FunctionalOption.ВариантыВерсионированияОбъектов</functionalOptions>
+  <functionalOptions>FunctionalOption.ИспользоватьВерсионированиеОбъекта</functionalOptions>
+  <functionalOptions>FunctionalOption.ИспользоватьВерсионированиеОбъектов</functionalOptions>
+  <functionalOptionsParameters>FunctionalOptionsParameter.ТипВерсионируемогоОбъекта</functionalOptionsParameters>
   <definedTypes>DefinedType.ВнешнийПользователь</definedTypes>
-  <definedTypes>DefinedType.ВнешнийПользовательОбъект</definedTypes>
   <definedTypes>DefinedType.МестоХраненияФункциональныхОпций</definedTypes>
+  <definedTypes>DefinedType.ВнешнийПользовательОбъект</definedTypes>
   <definedTypes>DefinedType.Организация</definedTypes>
   <definedTypes>DefinedType.Подразделение</definedTypes>
   <definedTypes>DefinedType.Пользователь</definedTypes>
   <definedTypes>DefinedType.ФизическоеЛицо</definedTypes>
+  <definedTypes>DefinedType.ВерсионируемыеДанные</definedTypes>
+  <definedTypes>DefinedType.ВерсионируемыеДанныеОбъект</definedTypes>
   <commonCommands>CommonCommand.ВремяВПриложении</commonCommands>
   <commonCommands>CommonCommand.ПредупрежденияПриЗавершенииРаботы</commonCommands>
   <commonCommands>CommonCommand.СведенияОПользователе</commonCommands>
   <commonCommands>CommonCommand.СменитьПароль</commonCommands>
   <commonCommands>CommonCommand.УстановитьРасширениеДляРаботыС1СПредприятием</commonCommands>
+  <commonCommands>CommonCommand.ИсторияИзменений</commonCommands>
   <commandGroups>CommandGroup.Информация</commandGroups>
   <commandGroups>CommandGroup.Органайзер</commandGroups>
   <constants>Constant.АдресПубликацииИнформационнойБазыВИнтернете</constants>
   <constants>Constant.АдресПубликацииИнформационнойБазыВЛокальнойСети</constants>
-  <constants>Constant.ГлавныйУзел</constants>
   <constants>Constant.ДетализироватьОбновлениеИБВЖурналеРегистрации</constants>
   <constants>Constant.ДоставлятьСерверныеОповещенияБезСистемыВзаимодействия</constants>
   <constants>Constant.ЗаголовокСистемы</constants>
   <constants>Constant.ИдентификаторИнформационнойБазы</constants>
+  <constants>Constant.ГлавныйУзел</constants>
   <constants>Constant.ИспользоватьВнешнихПользователей</constants>
   <constants>Constant.ИспользоватьГруппыВнешнихПользователей</constants>
   <constants>Constant.ИспользоватьГруппыПользователей</constants>
@@ -527,6 +561,7 @@
   <constants>Constant.СостояниеОтправкиСерверныхОповещений</constants>
   <constants>Constant.СтандартныеПодсистемыВАвтономномРежиме</constants>
   <constants>Constant.УдалитьНастройкиВходаПользователей</constants>
+  <constants>Constant.ИспользоватьВерсионированиеОбъектов</constants>
   <commonForms>CommonForm.Вопрос</commonForms>
   <commonForms>CommonForm.ВопросОбУстановкеВнешнейКомпоненты</commonForms>
   <commonForms>CommonForm.ВопросОбУстановкеРасширения1СПредприятия</commonForms>
@@ -575,6 +610,10 @@
   <enums>Enum.МС_ВидыОтпусков</enums>
   <enums>Enum.ПолФизическогоЛица</enums>
   <enums>Enum.ВидыДнейПроизводственногоКалендаря</enums>
+  <enums>Enum.ВариантыВерсионированияОбъектов</enums>
+  <enums>Enum.СрокиХраненияВерсий</enums>
+  <enums>Enum.ТипыВерсийОбъекта</enums>
+  <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.ДлительностьОтложенногоОбновления</reports>
   <reports>Report.МестаИспользованияСсылок</reports>
   <reports>Report.ПользователиПоПодразделениям</reports>
@@ -619,4 +658,6 @@
   <informationRegisters>InformationRegister.МС_НастройкиПросмотраРаботСотрудников</informationRegisters>
   <informationRegisters>InformationRegister.МС_ОстаткиОтпусков</informationRegisters>
   <informationRegisters>InformationRegister.МС_УровеньДоступаКЗаявкамНаОтпуск</informationRegisters>
+  <informationRegisters>InformationRegister.ВерсииОбъектов</informationRegisters>
+  <informationRegisters>InformationRegister.НастройкиВерсионированияОбъектов</informationRegisters>
 </mdclass:Configuration>
