@@ -49,4 +49,11 @@
       <value>Отгул (в счет отпуска)</value>
     </synonym>
   </enumValues>
+  <enumValues uuid="b2eefd62-9f73-4737-ad8e-17a9aff0b73f">
+    <name>Больничный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Больничный</value>
+    </synonym>
+  </enumValues>
 </mdclass:Enum>
